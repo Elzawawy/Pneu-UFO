@@ -17,6 +17,7 @@ def detect(frame,net,transform):
     frame = PIL.Image.fromarray(frame)
     print(frame.size)
     return frame
+    
 # define pro-processing applied to images in a transformation object.
 transform = transforms.Compose([
         transforms.Resize(224),
