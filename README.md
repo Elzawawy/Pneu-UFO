@@ -14,10 +14,10 @@ This network is 18 layers deep (hence the name) and can classify images into 100
 ## Dataset
 The main challenge that we faced was the dataset itself, where the competition didn’t provide any specific dataset for the problem, so we had to collect and build our own dataset by utilizing other surface defect datasets we found. The one we chose to use is the **NEU surface defect database.** We found four types of surface damage that is of interest to us from the dataset:  Crazing, Inclusion, Patches and Pitted. Then, using these images we built the dataset for our four classes taking care of class balance while generating them.
 
-We **open-source** this modified dataset version from NEU DET dataset here as well.
-
 ## Results 
 Used accuracy as our metric, achieved a **test total accuracy (overall classes) of 96.8%.**
+
+We **open-source** this modified dataset version from NEU DET dataset here as well. As well as our trained model as well for direct inference use if needed.
 
 ## Team Acknolwedgments
 - Omar Mohamed Swidan [Github](https://github.com/oswidan97)
