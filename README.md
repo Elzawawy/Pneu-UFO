@@ -17,7 +17,7 @@ The main challenge that we faced was the dataset itself, where the competition d
 ## Results 
 Used accuracy as our metric, achieved a **test total accuracy (overall classes) of 96.8%.**
 
-We **open-source** this modified dataset version from NEU DET dataset here as well. As well as our trained model as well for direct inference use if needed.
+We **open-source** this modified dataset version from NEU DET dataset here as well. And our trained model as well for direct inference use.
 
 ## Team Acknolwedgments
 - Omar Mohamed Swidan [Github](https://github.com/oswidan97)
