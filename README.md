@@ -20,6 +20,7 @@ Used accuracy as our metric, achieved a **test total accuracy (overall classes) 
 We **open-source** this modified dataset version from NEU DET dataset here as well. And our trained model as well for direct inference use.
 
 ## Team Acknolwedgments
+![](https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/p720x720/44559874_2184453348251729_6183100821299789824_o.jpg?_nc_cat=103&_nc_ohc=NS5bQ0HioA4AQlVPNU6pEG3e4QJOw6u3G5FLncl6BMRVc_gXUX0ySnVlQ&_nc_ht=scontent-hbe1-1.xx&oh=5b4ba27a039a9ed4935319afe10f385f&oe=5EB2217F)
 - Omar Mohamed Swidan [Github](https://github.com/oswidan97)
 - Rami Mohamed Khafagi [Github](https://github.com/ramikhafagi96)
 - Abdallah Amr Elmaradny [Github](https://github.com/abdallahmaradny)
