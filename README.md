@@ -1,4 +1,5 @@
-# Pneu-UFO
+<h1 align='center'> Pneu-UFO</h1>
+
 <p align='center'>
 <img src='https://images-2018.spaceappschallenge.org/team-photos/0-2STD6RzuMnRZwtpO4sh5NoWR8=/11913/width-800/'/>
 </p>
@@ -11,13 +12,16 @@
 </p>
 
 ## <a name="intro"></a> Overview
-As a part of the Nasa Space Apps Challenges 2018, Me and my team participated in a challenge to **design an effective and efficient solution using mother nature to build an autonomous operations sequence for imaging and controlling a free-flyer to detect and characterize MMOD (Micrometeoroid and Orbital Debris) damage on spacecraft surface.** In this repository we share our work and solution in software terms for geeks like us. :nerd_face: :nerd_face:
+As a part of the Nasa Space Apps Challenges 2018, Me and my team participated in a challenge to **design an effective and efficient solution using mother nature to build an autonomous operations sequence for imaging and controlling a free-flyer to detect and characterize MMOD (Micrometeoroid and Orbital Debris) damage on spacecraft surface.** In this repository we share our work and solution in the deep learning software part. However, more articles that mention more and the full solution are available for geeks like us. :nerd_face: :nerd_face: 
 
 ## <a name="work"></a> Our Work & Contributions
 
 Our contribution to a solution is an autonomous free flyer that uses pneumatic thrust forces for motion to orbit the spaceship while transmitting a live feed of the surface that is analyzed for surface damage using deep learning neural networks. You can inspect the mother nature aspect in this as it’s analogous to an eagle looking for a prey. We call it “Pneu-UFO” !
 
 We use **transfer learning** to build an image classification model that analyzes frames feed from the camera for damage severity. Transfer learning is a machine learning technique that utilizes a pre-trained model. While there are a lot of pre-trained models to work with out there, we chose to work with **RESNET18 model.**
+
+![](https://www.researchgate.net/profile/Muhammad_Hasan19/publication/323063171/figure/fig1/AS:603178554904576@1520820382219/Proposed-Modified-ResNet-18-architecture-for-Bangla-HCR-In-the-diagram-conv-stands-for.png)
+
 This network is 18 layers deep (hence the name) and can classify images into 1000 general object classes. To generalize this model to our task we remove the last classifier layer (the one with 1000 neurons, i.e. softmax layer) and add instead a layer that classifies images into **4 classes only (No damage, Low damage, Medium damage, High damage).** 
 
 ### Dataset
@@ -43,3 +47,7 @@ We **open-source** this modified dataset version from NEU DET dataset here as we
 3. *Hongwen Dong, Kechen Song, Yu He, Jing Xu, Yunhui Yan, Qinggang Meng, “PGA-Net: Pyramid Feature Fusion and Global Context Attention Network for Automated Surface Defect Detection,” IEEE Transactions on Industrial Informatics,  2020.(paper)*
 
 4. *[Transfer Learning for Computer Vision Tutorial with PyTorch](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)*
+
+---
+
+<h3 align='center'>Made with :heart:</h3>
